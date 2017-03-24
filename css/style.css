@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Montserrat:700');
+
+
+
+body{
+width: 100%;
+margin: 0;
+padding: 0;
+	font-family: 'Bree Serif', serif;
+}
+
+h1{
+	font-size: 42px;
+	font-weight: 200;
+	color: black;
+	margin-top: 10px;
+	float: right;
+}
+
+h2{    font-family: 'Montserrat', sans-serif;
+    font-size: 41px;
+    font-weight: bold;
+    color: #D31126;
+    margin-bottom: 86px;
+}
+
+
+
+h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+	color: black;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+
+
+
+p{
+	font-weight: none;
+	font-size: 12px;
+	color: black;
+	margin-bottom: 0px;
+}
+.intro{
+	margin-top: 250px;
+	margin-bottom: 250px;
+}
+video 
+{
+    width: 100%;
+    height: auto;
+}
+header{
+	height: 120px;
+	margin-top: 50px;
+}
+
+
+
+.logo-menu{
+	float: left;
+}
+
+.logo-menu img{
+	    width: 50px;
+}
+
+
+.menu-bar img{
+    width: 40px;
+	float: right;
+}
+.loading-logo img{
+	width: 15%;
+}
+
+.arrow img{
+	margin-top: 50px;
+	width: 3%;
+}
+
+.menu {
+	float:right;
+}
+
+.menu span{
+	font-size: 50px;
+}
+
+.span7{
+	float:left;
+}
+.span6{
+	float: right;
+}
+.sidenavR{
+    background-color: white;
+    height: 100%;
+    overflow-x: hidden;
+    padding-top: 0;
+    right: 0;
+    line-height: 25px;
+    transition: .5s;
+    width: 0;
+    z-index: 1;
+    position: fixed;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+
+    /* the rest of your styling */
+}
+
+
+.sidenav a,.sidenavR a{
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+    font-weight: bold;
+    display: block;
+    font-size: 25px;
+    padding: 0 8px 8px 0;
+    text-decoration: none;
+    line-height: 30px;
+}
+.sidenav a:hover,.offcanvas a:focus,.sidenavR a:hover,.offcanvas a:focus{
+	color:#D31126;
+}
+.sidenav .closebtn,.sidenavR .closebtn{
+	font-size:84px !important;
+	margin-left:50px;
+	position:absolute;
+	right:25px;
+	top:0;
+	color: #D31126;
+}
+.vertical{
+ 
+}
+.vertical p {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	position: relative;
+    top: 75%;
+    font-size: 40px;
+    color: #D31126;
+    opacity: 0.3;
+    float: right;
+    left: 89%;
+    vertical-align: middle;
+    display: table-cell;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+
+  /* Use se você quer que apareça para o IE8. */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.projects h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 41px;
+	font-weight: bold;
+	color: #D31126;
+	margin-bottom: 86px;
+}
+
+.projects p{
+	font-family: 'Bree Serif', serif;
+	font-size: 12;
+	color: black;
+	text-align: left;
+}
+
+.carousel-control-prev-icon {
+	color: black;
+}
+
+ {
+	    margin-top: 650px;
+}
+
+.contacts span{
+	    font-size: 12px;
+    background: black;
+    padding: 1px;
+    color: white;
+    font-weight: 100;
+}
+
+.contacts{
+	margin-bottom: 100px;
+}
+
+#project-slide{
+	margin-top: 180px !important;
+}
+
+.projects-company{
+	margin-top: 50px;
+}
+
+footer p{
+	color: grey;
+	font-weight: 700;
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+footer{
+	margin-top: 100px;
+	line-height: 50px;
+}
+
+
+.team{
+	border: 6px solid #D31126;
+	padding: 10px;
+	margin-top: 30px;
+	border-bottom: 30px;
+}
+
+.panel-heading img{
+	width: 100% !important;
+}
+
+@media screen and max-height 450px {
+.sidenav,.sidenavR{padding-top:15px;}
+.sidenav a,.sidenavR a{font-size:18px;}
+}
