@@ -362,6 +362,15 @@ strong{
 	    padding-bottom: 50px;
 	}
 	
+	.map-section {
+		height: 100%;
+	    text-align: center;
+	    margin-bottom: -40px;
+	    padding-left: 52px;
+	    padding-right: 52px;
+	    background: white;
+	}
+	
 	footer{
 		margin-top: 1368px;
 	    margin-left: 52px;
