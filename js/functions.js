@@ -1,13 +1,13 @@
     function openNav() {
-        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("mySidenav").style.width = "414px";
     }
 
     function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("mySidenav").style.width = "'0";
     }
 
     function openNavR() {
-        document.getElementById("mySidenavR").style.width = "250px";
+        document.getElementById("mySidenavR").style.width = "414px";
     }
 
     function closeNavR() {

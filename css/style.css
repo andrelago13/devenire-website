@@ -1,117 +1,204 @@
-@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Montserrat:700');
+@font-face {
+    font-family: "Motserrat";
+    src: url("../fonts/Montserrat-Bold.ttf");
+}
 
-
+@font-face {
+    font-family: "PTSerif";
+    src: url("../fonts/PTSerif.ttf");
+}
 
 body{
-width: 100%;
-margin: 0;
-padding: 0;
-	font-family: 'Bree Serif', serif;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "PTSerif";
+}
+
+html {
+    width: 100%;
+    height: 100%;
 }
 
 h1{
-	font-size: 42px;
-	font-weight: 200;
-	color: black;
-	margin-top: 10px;
-	float: right;
-}
-
-h2{    font-family: 'Montserrat', sans-serif;
-    font-size: 41px;
+	font-size: 43px;
+    color: #d31126;
+    font-family: "Motserrat";
     font-weight: bold;
-    color: #D31126;
-    margin-bottom: 86px;
+    width: 100%;
+    text-align: -webkit-auto;
+    margin-bottom: 38px;
+    text-transform: uppercase;
 }
 
-
+h2{
+	font-family: "Motserrat";
+    color: black;
+    font-size: 15px;
+    text-align: initial;
+    margin-top: 0px;
+}
 
 h3{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 21px;
-	font-weight: bold;
-	color: black;
-	margin-top: 10px;
-	margin-bottom: 30px;
+	font-size: 11px;
+	background-color: black;
+	color: white;
+	width: 61%;
 }
 
-
-
+h4{
+	font-size: 10px;
+	color: black;
+	font-family: "Motserrat";
+}
 
 p{
-	font-weight: none;
-	font-size: 12px;
-	color: black;
-	margin-bottom: 0px;
+	text-align: initial;
+	color: black;	
 }
-.intro{
-	margin-top: 250px;
-	margin-bottom: 250px;
-}
-video 
-{
-    width: 100%;
-    height: auto;
-}
-header{
-	height: 120px;
-	margin-top: 50px;
+
+strong{
+	color: #d31126;
+	font-weight: bold;
 }
 
 
+.navbar {
+	text-transform: uppercase;
+	font-family: "Motserrat";
+	background-color: white;
+}
 
-.logo-menu{
+.navbar-default{
+	border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+   font-size: 15px;
+   color: black ;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+   color: #d31126;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	color: #d31126;
+	background-color: white;
+}
+
+.navbar-brand {
 	float: left;
+	height: 50px;
+	padding: 0 15px;
+	font-size: 18px;
+	line-height: 60px;
 }
 
-.logo-menu img{
-	    width: 50px;
+.navbar-brand>img {
+    display: block;
+    width: 17%;
+}
+
+.logo-intro img {
+    width: 20.3%;
+    margin-top: 8%;
+}
+
+.arrow-down img{
+	width: 3.5%;
+    margin-top: 9%;   
+}
+
+.about img{
+	width: 100%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+.banner-sloggan img{
+	width: 100%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.projects img {
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom: 90px;
+}
+
+.carousel-inner {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
+	margin-top: 210%;
+}
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+	margin-top: 210%;
+}
+
+.carousel-inner img{
+	width: 100%;
+}
+
+.carousel-control{
+    color: black;
+    text-decoration: none;
+    outline: 0;
+    opacity: 1;
+    background-color: none;
+}
+
+.carousel {
+    position: relative;
+}
+
+.first-slide img{
+	width: 100%;
+}
+
+.projects{
+	margin-bottom: 270px !important;
+}
+
+.water-mark{
+	position: fixed;
+    bottom: 15px;
+    left: 35px;
+}
+
+.water-mark img{
+	width: 25%;
 }
 
 
-.menu-bar img{
-    width: 40px;
-	float: right;
-}
-.loading-logo img{
-	width: 15%;
-}
-
-.arrow img{
-	margin-top: 50px;
-	width: 3%;
-}
-
-.menu {
-	float:right;
-}
-
-.menu span{
-	font-size: 50px;
-}
-
-.span7{
-	float:left;
-}
-.span6{
-	float: right;
-}
+@media screen and (max-width:768px) {
+	
+	
 .sidenavR{
-    background-color: white;
-    height: 100%;
+	background-color: white;
+    height: 57%;
     overflow-x: hidden;
+    text-align: center;
     padding-top: 0;
     right: 0;
-    line-height: 25px;
+    line-height: 46px;
     transition: .5s;
     width: 0;
+    opacity: 1;
+    left: -4px;
+    top: 0;
+    padding-top: 150px;
     z-index: 1;
     position: fixed;
-    -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
-    box-shadow: 0 8px 6px -6px #999;
-
-    /* the rest of your styling */
+    border: 2px solid #D31126;
 }
 
 
@@ -129,12 +216,13 @@ header{
 	color:#D31126;
 }
 .sidenav .closebtn,.sidenavR .closebtn{
-	font-size:84px !important;
-	margin-left:50px;
-	position:absolute;
-	right:25px;
-	top:0;
-	color: #D31126;
+	font-size: 98px !important;
+    margin-left: 52px;
+    position: absolute;
+    right: 22px;
+    top: 16px;
+    opacity: 1 !important;
+    color: #D31126;
 }
 .vertical{
  
@@ -162,78 +250,121 @@ header{
     -o-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
 
-  /* Use se você quer que apareça para o IE8. */
+  /* Use se vocÃª quer que apareÃ§a para o IE8. */
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
-.projects h2{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 41px;
-	font-weight: bold;
-	color: #D31126;
-	margin-bottom: 86px;
+.menu-icon{
+	margin-top: -49px;
+    margin-right: -88px;
 }
 
-.projects p{
-	font-family: 'Bree Serif', serif;
-	font-size: 12;
-	color: black;
-	text-align: left;
+.menu-icon img{
+	width: 30%;
 }
+	
+	
+	h1{
+		margin-bottom: 25px;
 
-.carousel-control-prev-icon {
-	color: black;
+	}
+	.navbar-default {
+	    border: none;
+	    margin-top: 15px;
+	    background: none;
+	}	
+	.logo-intro img {
+	    width: 54.3%;
+	    margin-top: 12%;
+	}
+	
+	.arrow-down img {
+	    width: 7.5%;
+	    margin-top: 9%;
+	}
+	
+	navbar-default .navbar-toggle {
+	    border: none;
+	    margin-top: 15px;
+	}
+	
+	.navbar-default .navbar-toggle .icon-bar {
+	    background-color: black;
+	    margin-bottom: 6px;
+	}
+	.navbar-default .navbar-toggle{
+    border: none;
 }
+	.navbar-toggle .icon-bar {
+	    display: block;
+	    width: 30px;
+	    height: 5px;
+	}
+	
+	.navbar-toggle {
+	    position: relative;
+	    float: right;
+	    color: black;
+	    font-size: 20px;
+	    padding: 9px 10px;
+	    margin-top: 2px;
+	    margin-bottom: 8px;
+	    background-color: transparent;
+	    background-image: none;
+	    border: 1px solid transparent;
+	}
+	
+	.top-nav-collapse{
+		margin-top: 40px;
+	}
+	
+	.about-section {
+		height: 100%;
+	    text-align: center;
+	    margin-bottom: -40px;
+	    padding-left: 52px;
+	    padding-right: 52px;
+	    background: white;
+	}
+	
+	.projects-section{
+	    height: 100%;
+		padding-top: 90px;
+	    text-align: center;
+	    padding-left: 52px;
+	    padding-right: 52px;
+	    background: white;
+	}	
+	
+	.projects img {
+	    width: 100%;
+	    margin: 0 auto;
+	    margin-bottom: 37px;
+	}
+	
+	.banner-sloggan img {
+		width: 100%;
+	    margin-top: 35px;
+	}	
+	
+	.contact-section {
+		height: 100%;
+	    text-align: center;
+	    margin-bottom: -40px;
+	    padding-left: 52px;
+	    padding-right: 52px;
+	    background: white;
+	}
+	
+	
+	.contact{
+		    margin-top: 1493px;
+	    padding-bottom: 50px;
+	}
+	
+	footer{
+		margin-top: 1368px;
+	    margin-left: 52px;
+	}
 
- {
-	    margin-top: 650px;
-}
-
-.contacts span{
-	    font-size: 12px;
-    background: black;
-    padding: 1px;
-    color: white;
-    font-weight: 100;
-}
-
-.contacts{
-	margin-bottom: 100px;
-}
-
-#project-slide{
-	margin-top: 180px !important;
-}
-
-.projects-company{
-	margin-top: 50px;
-}
-
-footer p{
-	color: grey;
-	font-weight: 700;
-	font-size: 10px;
-	font-family: 'Montserrat', sans-serif;
-}
-
-footer{
-	margin-top: 100px;
-	line-height: 50px;
-}
-
-
-.team{
-	border: 6px solid #D31126;
-	padding: 10px;
-	margin-top: 30px;
-	border-bottom: 30px;
-}
-
-.panel-heading img{
-	width: 100% !important;
-}
-
-@media screen and max-height 450px {
-.sidenav,.sidenavR{padding-top:15px;}
-.sidenav a,.sidenavR a{font-size:18px;}
 }
